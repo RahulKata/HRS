@@ -1,8 +1,8 @@
 # HRS
 
-## **H**ealthy and **S**umptuous **R**ecipes
+#### Healthy and Sumptuous Recipes
 
-This is a mini project created for a college assignment.
+This is a mini project created for our college assignment.
 A small website created primarily using...
 - HTML
 - CSS
