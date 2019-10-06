@@ -1,6 +1,6 @@
 # HRS
 
-##**H**ealthy and **S**umptuous **R**ecipes
+## **H**ealthy and **S**umptuous **R**ecipes
 
 This is a mini project created for a college assignment.
 A small website created primarily using...
