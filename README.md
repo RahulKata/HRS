@@ -1,4 +1,4 @@
-# HRS
+# HSR
 
 #### Healthy and Sumptuous Recipes
 
