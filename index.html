@@ -27,6 +27,7 @@
   <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./lib/book-loader/dist/style.css">
+  <link rel="stylesheet" href="./lib/jquery-number-counter/dist/style.css">
 
 </head>
 
@@ -59,9 +60,9 @@
     Intro Section
   ============================-->
   <section id="intro">
-    <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0">Healthy and Sumptuous<br><span>Recipes</span></h1>
-      <p class="mb-4 pb-0">Recipes that matter and make your mouth <span>water</span></p>
+    <div class="intro-container">
+       <h1 class="mb-4 pb-0">Healthy and Sumptuous<br><span>Recipes</span></h1>
+      <p class="mb-4 pb-0">Recipes that matter and make your mouth water</p>
       <div class="book">
         <div class="inner">
           <div class="left"></div>
@@ -102,7 +103,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-        <h2><i class="fa fa-check-square-o fa-2x" ></i>   Why choose us?</h2>
+        <h2><i class="fa fa-check-square-o fa-2x wow tada" data-wow-duration="2s" data-wow-iteration="20"></i>   Why choose us?</h2>
             <p>We provide the most kitchen friendly and tasty recipes ever. <br>You can choose from a different variety of recipes to satisfy all kinds craving. <br> This is your ultimate DIY cookbook. </p>
           </div>
           <div class="col-lg-3">
@@ -121,7 +122,7 @@
     <!--==========================
       Gallery Section
     ============================-->
-    <section id="gallery" class="section-with-bg wow fadeInUp">
+    <section id="gallery" class="section-with-bg wow zoomInUp" data-wow-duration="3s">
 
       <div class="container">
         <div class="section-header">
@@ -153,7 +154,7 @@
     <!--==========================
       devs Section
     ============================-->
-    <section id="devs" class="wow fadeInUp">
+    <section id="devs" class="wow fadeInRight" data-wow-duration="2s">
       <div class="container">
         <div class="section-header">
           <h2><i class="fa fa-heart heart"></i>&nbsp;&nbsp; The Developers &nbsp;&nbsp;<i class="fa fa-heart heart"></i></h2>
@@ -161,7 +162,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="1s">
             <div class="speaker">
               <img src="./img/devs/dummy.png" alt="dev 1" class="img-fluid" >
               <div class="details">
@@ -175,7 +176,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="1.5s">
             <div class="speaker">
               <img src="/img/devs/dummy.png" alt="Speaker 2" class="img-fluid">
               <div class="details">
@@ -189,7 +190,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="2s">
             <div class="speaker">
               <img src="/img/devs/dummy.png" alt="Speaker 3" class="img-fluid" >
               <div class="details">
@@ -237,7 +238,29 @@
       Stats Section
     ============================-->
     <section id="stats" class="section-with-bg wow fadeInUp">
+        <div class="counter col_fourth">
+          <i class="fa fa-eercast fa-2x" style="color: green;"></i>
+          <h2 class="timer count-title count-number" data-to="16" data-speed="4000"></h2>
+          <p class="count-text ">Veg Dishes</p>
+        </div>
       
+        <div class="counter col_fourth">
+          <i class="fa fa-eercast fa-2x" style="color: red;"></i>
+          <h2 class="timer count-title count-number" data-to="16" data-speed="4000"></h2>
+          <p class="count-text ">Non-Veg Dishes</p>
+        </div>
+      
+        <div class="counter col_fourth">
+          <i class="fa fa-glass fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="10" data-speed="4000"></h2>
+          <p class="count-text ">Drinks</p>
+        </div>
+      
+        <div class="counter col_fourth end">
+          <i class="fa fa-spoon fa-2x" style="color: blue;"></i>
+          <h2 class="timer count-title count-number" data-to="10" data-speed="4000"></h2>
+          <p class="count-text ">Beverages</p>
+        </div>
     </section>  
 
   </main>
@@ -305,6 +328,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="./js/main.js"></script>
+  <script src="./lib/jquery-number-counter/dist/script.js"></script>
 </body>
 
 </html>
