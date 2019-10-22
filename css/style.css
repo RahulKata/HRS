@@ -700,6 +700,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
+#gallery .owl-carousel {
+  slidespeed: 200;
+}
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
