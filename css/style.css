@@ -43,19 +43,6 @@ h6 {
   visibility: hidden;
 }
 
-/* Preloader */
-
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
-}
-
 /* Back to top button */
 
 .back-to-top {
@@ -476,7 +463,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 0;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -578,7 +565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
-  height: 45vh;
+  height: 48vh;
 }
 
 #devs .speaker .details {
@@ -700,6 +687,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
+#gallery .owl-carousel {
+  slidespeed: 200;
+}
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
@@ -762,6 +752,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #stats {
   height: 50vh;
+  background: url(../img/stats.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+#stats:before {
+  content: "";
+  background: rgba(255, 0, 0, 0.205);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 /*--------------------------------------------------------------

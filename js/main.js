@@ -2,13 +2,13 @@ jQuery(document).ready(function($) {
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $(".back-to-top").fadeIn("slow");
+      $(".back-to-top").fadeIn(1000);
     } else {
       $(".back-to-top").fadeOut("slow");
     }
   });
   $(".back-to-top").click(function() {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
+    $("html, body").animate({ scrollTop: 0 }, 2000, "easeInOutExpo");
     return false;
   });
 
@@ -157,17 +157,10 @@ jQuery(document).ready(function($) {
       1200: { items: 5 }
     }
   });
-
-  // Buy tickets select the ticket type on click
-  $("#buy-ticket-modal").on("show.bs.modal", function(event) {
-    var button = $(event.relatedTarget);
-    var ticketType = button.data("ticket-type");
-    var modal = $(this);
-    modal.find("#ticket-type").val(ticketType);
-  });
-
   // custom code
 });
+
+// -----------------------spinning circle----------------------
 const wrapperEl = document.querySelector(".wrapper");
 const numberOfEls = 90;
 const duration = 6000;
