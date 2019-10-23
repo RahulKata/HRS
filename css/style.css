@@ -578,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
-  height: 45vh;
+  height: 48vh;
 }
 
 #devs .speaker .details {
@@ -765,6 +765,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #stats {
   height: 50vh;
+  background: url(../img/stats.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+#stats:before {
+  content: "";
+  background: rgba(255, 0, 0, 0.205);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 /*--------------------------------------------------------------

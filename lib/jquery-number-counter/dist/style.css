@@ -40,7 +40,7 @@
   margin-bottom: 0;
   text-align: center;
 }
-.fa-2x {
+#stats .fa-2x {
   margin: 0 auto;
   float: none;
   display: table;
