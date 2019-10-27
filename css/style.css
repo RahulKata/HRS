@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background: rgb(255, 242, 242);
-  color: rgb(6, 12, 34)
+  background: #eee url(/img/subtle_bg/floor-tile.png);
+  color: rgb(6, 12, 34);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -113,7 +116,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background: #eee url(/img/subtle_bg/greek-vase.png);
 }
 
 /*--------------------------------------------------------------
@@ -780,9 +783,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #16213d;
+  background: linear-gradient(319deg, #231557, #000000, #7a0029);
   padding: 60px 0 30px 0;
+  /* animation: grad 7s ease infinite; */
 }
+
+/* @keyframes gradt {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
 
 #footer .footer-top .footer-info {
   margin-bottom: 20px;
@@ -858,7 +874,7 @@ hr.style {
   margin-left: 17vw;
   -webkit-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
