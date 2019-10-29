@@ -343,7 +343,7 @@ h6 {
   background: none;
   font-size: 24px;
   display: none;
-  transition: all 0.4s;
+  transition: all 0.5s;
   outline: none;
   cursor: pointer;
 }
@@ -360,7 +360,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: rgb(106, 13, 11);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -378,7 +378,7 @@ h6 {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #db8f00;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -390,7 +390,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #fbff00;
 }
 
 #mobile-nav ul li li {
@@ -421,7 +421,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.733);
   display: none;
 }
 
