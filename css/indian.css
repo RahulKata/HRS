@@ -35,22 +35,22 @@ h1.titles {
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-  background-image: url("https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-image: url(/img/recipes/maloo.png);
 }
 
-.card--2 .card__img,
-.card--2 .card__img--hover {
-  background-image: url("https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+.card--x .card__img,
+.card--x .card__img--hover {
+  background-image: url("https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
 .card__clock {
   width: 1.5vw;
   vertical-align: middle;
-  fill: #9e4a00;
+  fill: #ff0000;
 }
 .card__time {
   font-size: 2vh;
-  color: #ff8317;
+  color: #fbca03;
   vertical-align: middle;
   margin-left: 5px;
 }
@@ -79,7 +79,7 @@ h1.titles {
 }
 
 .card__img--hover {
-  transition: 0.2s all ease-out;
+  transition: 0.3s all ease-out;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ h1.titles {
 .card__category {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-size: 1.5vh;
+  font-size: 2vh;
   letter-spacing: 2px;
   font-weight: 500;
   color: #cccccc;
@@ -122,7 +122,7 @@ h1.titles {
 
 .card:hover .card__img--hover {
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .card:hover .card__info_left,
@@ -130,6 +130,7 @@ h1.titles {
 .card:hover .card__info {
   background: transparent;
   position: relative;
+  font-weight: 900;
 }
 
 .card:hover .card__info-hover {
