@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 #layout {
-  height: 150vh;
+  height: 130vh;
   background-image: url(/img/subtle_bg/white-waves.png);
 }
 
@@ -71,137 +71,185 @@
   float: left;
 }
 
-/* gallery and tips */
-
-.w {
-  width: 50vw;
-  height: 80vh;
-  margin-left: 8vw;
+.accordion {
+  float: left;
+  width: 60vw;
+  height: 60vh;
+  margin-top: 6vh;
+  margin-left: 6vw;
+  box-shadow: 10px 10px 42px 5px rgba(0, 0, 0, 0.74);
 }
 
-.ts {
-  width: 100%;
-  height: 100%;
+.accordion ul {
+  width: 60vw;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
   position: relative;
-  --barH: 10%; /*active zone height = 100% - barH*/
+  width: 15%; /* 100 / number of images */
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+  background-size: cover;
 }
 
-.t {
-  --w: 30%;
-  display: block;
-  width: var(--w);
-  height: var(--barH);
-  position: absolute;
-  bottom: 0;
-  left: var(--l);
-  transform-origin: top left;
+.accordion ul li:nth-child(1) {
+  background-image: url("/img/recipes/maloo/maloo.png");
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("/img/recipes/maloo/maloo1.png");
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("/img/recipes/maloo/maloo2.png");
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("/img/recipes/maloo/maloo3.png");
 }
 
-.t img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  transform: scale(0.8);
+.accordion ul:hover li,
+.accordion ul:focus-within li {
+  width: 13.333333%;
+}
+.accordion ul li:focus {
+  outline: none;
+}
+.accordion ul:hover li:hover,
+.accordion ul li:focus,
+.accordion ul:focus-within li:focus {
+  width: 60%;
 }
 
-[type="radio"] {
-  display: none;
+.accordion ul:hover li {
+  width: 13.33% !important;
+}
+.accordion ul:hover li:hover {
+  width: 60% !important;
 }
 
-:checked + label.t {
-  left: 0;
-  bottom: var(--barH);
-  height: calc(100% - var(--barH));
+.info {
+  float: right;
+}
+fieldset {
+  font-family: sans-serif;
+  border: 10px ridge #b97d10;
+  background: rgb(245, 245, 245);
+  border-radius: 2vh;
+  padding-top: 4vh;
+  padding-left: 2.5vh;
+  height: 60vh;
+  width: 20vw;
+  margin-top: 5vh;
+  margin-right: 6vw;
+  line-height: 2.2;
 }
 
-:checked + label.t img {
-  object-fit: contain;
+fieldset legend {
+  background: #6a0c0b;
+  color: #fff;
+  width: 6vw;
+  padding: 0.1vh 0.8vw;
+  font-size: 8vh;
+  border-radius: 1vw;
+  margin-left: 2vw;
+  box-shadow: 15px 18px 25px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* 
-optional
-*/
-
-.ts {
-  /*thumbnails bar*/
-  -webkit-perspective: 100px;
-  perspective: 100px;
-  -webkit-perspective-origin: center center;
-  perspective-origin: center center;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  pointer-events: none;
+.info span {
+  color: #996300;
+  font-weight: 600;
 }
 
-.ts:after {
-  /*the plate*/
+.info label {
+  font-size: 3vh;
+}
+
+/*--------------------------------------------------------------
+# ingredients Section
+--------------------------------------------------------------*/
+
+#ingredients {
+  height: 90vh;
+  background: url(/img/subtle_bg/greek-vase.png);
+}
+
+#ingredients h2 {
+  margin-left: 6vw;
+  padding: 4vh;
+  font-size: 12vh;
+  font-family: "Rye", cursive;
+  color: rgb(83, 83, 83);
+}
+
+#ingredients h2 span {
+  text-decoration: underline;
+  text-decoration-color: #c00;
+}
+
+#ingredients ul {
+  list-style-type: none;
+  margin-left: 15vw;
+}
+
+#ingredients li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 3vh;
+  padding-left: 1vw;
+  font-size: 3vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2vw;
+  word-spacing: 0.6vw;
+}
+
+/* The actual line being placed before each list item, tweak width and color as appropriate */
+#ingredients li:before {
+  background-color: #c00;
+  width: 0.2vw;
   content: "";
-  display: block;
-  width: 100%;
-  height: 10vh;
   position: absolute;
-  bottom: 0;
-  background: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.432));
-  transform: rotateX(90deg) scaleX(1.2);
-  -webkit-transform-origin: bottom center;
-  transform-origin: bottom center;
+  top: 0vh;
+  bottom: 0vh;
+  left: 0.25vw;
 }
 
-:not(:checked) + .t {
-  /*inactive labels*/
-  transform: translate3d(0, 0, -10px);
-  pointer-events: auto;
+/* Start the line further down on the first list item */
+#ingredients li:first-child:before {
+  top: 2.5vh;
 }
 
-:not(:checked) + .t:hover {
-  -webkit-transform: translate3d(0, -7px, -5px);
-  transform: translate3d(0, -7px, -5px);
-  box-shadow: 0 30px 30px -25px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+/* Stop the line short on the final list item */
+#ingredients li:last-child:before {
+  height: 1.8vh;
 }
 
-:not(:checked) + .t img {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9); /*create gaps*/
+/* Styles for the SVG bullet points */
+.bullet {
+  margin-left: -1.35vw;
+  width: 2vw;
+  fill: rgb(0, 0, 0);
+  float: left;
+  padding-right: 0.6vw;
+}
+.bullet.big {
+  width: 2vw;
+  margin-left: -1.35vw;
+  padding-right: 0.6vw;
 }
 
-:checked + .t {
-  /*active label*/
-  box-shadow: 0 0 0 transparent;
-  -webkit-animation: anim 2s 1;
-  animation: anim 2s 1;
-}
-@-webkit-keyframes anim {
-  from {
-    -webkit-transform: rotateY(6deg) rotateX(3deg);
-    transform: rotateY(6deg) rotateX(3deg);
-  }
-}
-@keyframes anim {
-  from {
-    -webkit-transform: rotateY(6deg) rotateX(3deg);
-    transform: rotateY(6deg) rotateX(3deg);
-  }
+#ingredients span {
+  margin-left: 2vw;
 }
 
-/* 
-transitions
-*/
-.t {
-  /*active->inactive & hover->rest*/
-  transition: bottom 0.6s, left 0.6s, width 0.3s, box-shadow 1s,
-    -webkit-transform 0.5s;
-  transition: transform 0.5s, bottom 0.6s, left 0.6s, width 0.3s, box-shadow 1s;
-  transition: transform 0.5s, bottom 0.6s, left 0.6s, width 0.3s, box-shadow 1s,
-    -webkit-transform 0.5s;
-}
-.t:hover,
-:checked + .t {
-  transition: bottom 0.6s, left 0.6s, width 0.3s, box-shadow 0s,
-    -webkit-transform 0.5s;
-  transition: transform 0.5s, bottom 0.6s, left 0.6s, width 0.3s, box-shadow 0s;
-  transition: transform 0.5s, bottom 0.6s, left 0.6s, width 0.3s, box-shadow 0s,
-    -webkit-transform 0.5s;
+/*--------------------------------------------------------------
+# prep Section
+--------------------------------------------------------------*/
+
+#prep {
+  height: 100vh;
 }
