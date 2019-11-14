@@ -203,3 +203,21 @@ function createEl(i) {
 }
 
 for (let i = 0; i < numberOfEls; i++) createEl(i);
+
+function startTime() {
+  var d = new Date();
+  document.getElementById("clock").innerHTML = d.toLocaleString();
+  setTimeout(startTime);
+  window.setInterval("updateTime()", 1000);
+}
+
+var seconds = 0;
+
+// function startTimer() {
+//   window.setInterval("updateTime()", 1000);
+// }
+
+function updateTime() {
+  ++seconds;
+  document.getElementById("screen_time").innerHTML = seconds / 1000;
+}

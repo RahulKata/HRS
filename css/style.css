@@ -877,6 +877,18 @@ hr.style {
   background: rgb(0, 0, 0);
 }
 
+#clock,
+#screen_time {
+  font-size: 2vh;
+  color: wheat;
+}
+
+footer .time {
+  padding-top: 0.5vh;
+  height: 3vh;
+  margin-left: 5vw;
+  /* word-spacing: 0.2vw; */
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
