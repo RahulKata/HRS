@@ -31,7 +31,6 @@
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   
-
   <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./lib/book-loader/dist/style.css">
