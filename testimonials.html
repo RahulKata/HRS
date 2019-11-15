@@ -287,57 +287,51 @@
            feedback
 ============================-->
 <section id="feedback" class="wow rotateInDownLeft" data-wow-duration="2s">
-	<div class="container">
-		<div class="row ">
-			<div class="form-container">
-				<h2 style="font-family: 'New Rocker', cursive;">Feedback</h2><hr class="vertical-lines">
-				<form role="form" method="post" id="reused_form">
-						<div class="stars">
-							<label> <i class="fa fa-arrow-right"></i> &nbsp;How many stars for your overall experience?</label>
-							<p>
-								<label class="radio-inline">
-									<input type="radio" name="experience" id="radio_experience" value="bad">
-									Bad
-								</label>
-								<label class="radio-inline">
-									<input type="radio" name="experience" id="radio_experience" value="average">
-									Average
-								</label>
-								<label class="radio-inline">
-									<input type="radio" name="experience" id="radio_experience" value="good">
-									Good
-								</label>
-							</p>
-						</div>
-						<div class="row">
-							<div class="col-sm-6 form-group">
-								<label for="name"> Your Name:</label>
-								<input type="text" class="form-control" id="name" name="name" required>
-							</div>
-							<div class="col-sm-6 form-group">
-								<label for="email"> Email:</label>
-								<input type="email" class="form-control" id="email" name="email" required>
-							</div
-								<div class="row">
-									<div class="col-sm-12 form-group">
-										<label for="comments"> Comments:</label>
-										<textarea class="form-control" type="textarea" name="comments" id="comments"
-											placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
-									</div>
-								</div>
-					<div class="row">
-						<div class="col-sm-12 form-group">
-							<button type="submit" class="btn btn-lg btn-warning btn-block">Post </button>
-						</div>
+	<div class="contact-form">
+		<div class="contact-form__brand">
+			<i class="fa fa-edit"></i>
+		</div>
+		<div class="contact-form__contact">
+			<h3 class="contact-form__title">FeedBack!</h3>
+			<form class="contact-form__form">
+				<div class="contact-form__form--line" id="form1">
+					<div class="input">
+						<label for="name">Name*</label>
+						<input type="text" name="name" required/>
 					</div>
-				</form>
-				<div id="success_message" style="width:100%; height:100%; display:none; ">
-					<h3>Posted your feedback successfully!</h3>
+					<label class="checkbox-container">I'm satisfied!
+						<input type="checkbox" checked />
+						<span class="checkmark"></span>
+					</label>
 				</div>
-				<div id="error_message" style="width:100%; height:100%; display:none; ">
-					<h3>Error</h3> Sorry there was an error sending your form.
+				<div class="contact-form__form--line">
+					<div class="input">
+						<label for="designation">What do u do for a living?*</label>
+						<input type="text" name="designation" />
+					</div>
+					<div class="input">
+						<label for="Last Name">Describe yourself in one word</label>
+						<input type="text" name="Last Name" />
+					</div>
 				</div>
-			</div>
+				<div class="contact-form__form--line">
+					<div class="input">
+						<label for="Mail">Mail*</label>
+						<input type="email" name="Mail" />
+					</div>
+					<div class="input">
+						<label for="Phone">Phone Number*</label>
+						<input type="number" name="Phone" />
+					</div>
+				</div>
+				<div class="input--textarea">
+					<label for="Message">Message*</label>
+					<textarea type="text" name="Message"></textarea>
+				</div>
+				<div class="input--button">
+					<button form="form1"><span>Submit &nbsp;</span></button>
+				</div>
+			</form>
 		</div>
 	</div>
 </section>
