@@ -1,3 +1,11 @@
+<?php 
+  session_start();
+
+  if(!isset($_SESSION['username']))
+  {
+    header('location:connect.php');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +58,8 @@
           <li><a href="./indian.html ">Indian</a></li>
           <li><a href="./foreign.html">Foriegn</a></li>
           <li><a href="./testimonials.html">Testimonials</a></li>
-          <li class="connect"><a href="./connect.html">Connect with Us</a></li>
+          <li class="connect"><a href="./connect.php">&nbsp;<?php echo $_SESSION['username']; ?></a></li>
+          <li><a href="logout.php">Logout</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,7 +41,7 @@
 
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.php">Home</a></li>
             <li><a href="./indian.html">Indian</a></li>
             <li><a href="./foreign.html">Foriegn</a></li>
             <li><a href="./testimonials.html">Testimonials</a></li>
@@ -60,7 +61,7 @@
     <section id="form">
       <div class="container1" id="container1">
         <div class="form-container1 sign-up-container1">
-          <form action="./php/validation.php" method="POST">
+          <form action="registration.php" method="POST">
             <h2 style="font-weight: 700;font-size: 5vh;">Create Account</h2>
             <div class="social-container1">
               <a href="#" class="social"><i class="fa fa-facebook"></i></a>
@@ -68,15 +69,15 @@
               <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
             </div>
             <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
-            <input type="password" placeholder="Confirm Password" required />
-            <button>Sign Up</button>
+            <input type="text" placeholder="Name" name="user" required />
+            <input type="email" placeholder="Email" name="email" required />
+            <input type="password" placeholder="Password" name="password" required />
+            <input type="password" placeholder="Confirm Password" name="cpassword" required />
+            <button name="register">Sign Up</button>
           </form>
         </div>
         <div class="form-container1 sign-in-container1">
-          <form action="./php/validation.php" method="POST">
+          <form action="validation.php" method="POST">
             <h1>Sign in</h1>
             <div class="social-container1">
               <a href="#" class="social"><i class="fa fa-facebook"></i></a>
@@ -84,7 +85,7 @@
               <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" name="email" required />
+            <input type="text" placeholder="UserName" name="user" required />
             <input
               type="password"
               placeholder="Password"
@@ -92,7 +93,7 @@
               required
             />
             <a href="#">Forgot your password?</a>
-            <button type="submit">Sign In</button>
+            <button type="submit" name="login">Sign In</button>
           </form>
         </div>
         <div class="overlay-container1">
