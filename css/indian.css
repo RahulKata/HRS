@@ -153,7 +153,7 @@ h1.titles {
       #4b000e69 50%,
       rgba(6, 12, 34, 0.938) 100%
     ),
-    url("/img/indian.jpg");
+    url("../img/indian.jpg");
   background-size: cover;
 }
 
