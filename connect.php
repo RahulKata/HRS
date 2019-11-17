@@ -1,4 +1,3 @@
-<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,9 +63,9 @@
           <form action="registration.php" method="POST">
             <h2 style="font-weight: 700;font-size: 5vh;">Create Account</h2>
             <div class="social-container1">
-              <a href="#" class="social"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/" class="social" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social"><i class="fa fa-google-plus" target="_blank"></i></a>
+              <a href="https://www.linkedin.com/login" target="_blank" class="social"><i class="fa fa-linkedin"></i></a>
             </div>
             <span>or use your email for registration</span>
             <input type="text" placeholder="Name" name="user" required />
@@ -80,12 +79,12 @@
           <form action="validation.php" method="POST">
             <h1>Sign in</h1>
             <div class="social-container1">
-              <a href="#" class="social"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/" class="social" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social" target="_blank"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.linkedin.com/login" target="_blank" class="social"><i class="fa fa-linkedin"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="text" placeholder="UserName" name="user" required />
+            <input type="text" placeholder="User_name" name="user" required />
             <input
               type="password"
               placeholder="Password"

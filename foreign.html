@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body>
+  <body onload="startTime()">
     <!--==========================
             Header
           ============================-->
@@ -46,11 +46,11 @@
 
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.php">Home</a></li>
             <li><a href="./indian.html">Indian</a></li>
             <li class="menu-active"><a href="#">Foriegn</a></li>
             <li><a href="./testimonials.html">Testimonials</a></li>
-            <li class="connect"><a href="./connect.html">Connect with Us</a></li>
+            <li class="connect"><a href="./connect.php">Connect with Us</a></li>
           </ul>
         </nav>
         <!-- #nav-menu-container -->
@@ -589,9 +589,8 @@
     </div>
   
     <div class="time">
-      <i class="fa fa-clock-o fa-2x"></i> &nbsp; &nbsp; <span id="clock"></span>
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i
-        class="fa fa-laptop fa-2x"></i> &nbsp; &nbsp; <span id="screen_time"></span> seconds
+      <!-- <i class="fa fa-clock-o fa-2x"></i> &nbsp; &nbsp; <span id="clock"></span> -->
+      <i class="fa fa-laptop fa-2x"></i> &nbsp; &nbsp;<span id="screen_time"></span> &nbsp; seconds
     </div>
   </footer>
   <!-- #footer -->

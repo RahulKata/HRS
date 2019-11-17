@@ -54,7 +54,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#">Home</a></li>
-          <li><a href="./indian.html ">Indian</a></li>
+          <li><a href="./indian.html">Indian</a></li>
           <li><a href="./foreign.html">Foriegn</a></li>
           <li><a href="./testimonials.html">Testimonials</a></li>
           <li class="connect"><a href="./connect.php">&nbsp;<?php echo $_SESSION['username']; ?></a></li>
@@ -166,25 +166,25 @@
     <section id="stats" class="section-with-bg wow flipInX" data-wow-duration="4s">
         <div class="counter col_fourth">
           <i class="fa fa-eercast fa-2x" style="color: green;"></i>
-          <h2 class="timer count-title count-number" data-to="150" data-speed="8000"></h2>
+          <h2 class="timer count-title count-number" data-to="300" data-speed="10000"></h2>
           <p class="count-text ">Veg Dishes</p>
         </div>
       
         <div class="counter col_fourth">
           <i class="fa fa-eercast fa-2x" style="color: red;"></i>
-          <h2 class="timer count-title count-number" data-to="150" data-speed="8000"></h2>
+          <h2 class="timer count-title count-number" data-to="300" data-speed="10000"></h2>
           <p class="count-text ">Non-Veg Dishes</p>
         </div>
       
         <div class="counter col_fourth">
           <i class="fa fa-glass fa-2x"></i>
-          <h2 class="timer count-title count-number" data-to="90" data-speed="8000"></h2>
+          <h2 class="timer count-title count-number" data-to="180" data-speed="10000"></h2>
           <p class="count-text ">Drinks</p>
         </div>
       
         <div class="counter col_fourth end">
           <i class="fa fa-spoon fa-2x" style="color: blue;"></i>
-          <h2 class="timer count-title count-number" data-to="90" data-speed="8000"></h2>
+          <h2 class="timer count-title count-number" data-to="180" data-speed="10000"></h2>
           <p class="count-text ">Beverages</p>
         </div>
     </section>  
@@ -216,7 +216,7 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1.5s">
             <div class="speaker">
-              <img src="/img/devs/dummy.png" alt="Speaker 2" class="img-fluid">
+              <img src="./img/devs/dummy.png" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Harsha K</a></h3>
                 <div class="social">
@@ -230,7 +230,7 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="2s">
             <div class="speaker">
-              <img src="/img/devs/dummy.png" alt="Speaker 3" class="img-fluid" >
+              <img src="./img/devs/dummy.png" alt="Speaker 3" class="img-fluid" >
               <div class="details">
                 <h3><a href="speaker-details.html">Rahul Kata</a></h3>
                 <div class="social">
@@ -315,9 +315,10 @@
         </div>
       </div>
     </div>
+
     <div class="time">
-        <i class="fa fa-clock-o fa-2x"></i> &nbsp; &nbsp; <span id="clock"></span> 
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-laptop fa-2x"></i> &nbsp; &nbsp; <span id="screen_time"></span> seconds
+      <!-- <i class="fa fa-clock-o fa-2x"></i> &nbsp; &nbsp; <span id="clock"></span> -->
+      <i class="fa fa-laptop fa-2x"></i> &nbsp; &nbsp;<span id="screen_time"></span> &nbsp; seconds
     </div>
   </footer><!-- #footer -->
 

@@ -4,7 +4,7 @@
 
 #layout {
   height: 130vh;
-  background-image: url(/img/subtle_bg/white-waves.png);
+  background-image: url("../img/subtle_bg/white-waves.png");
 }
 
 .dname {
@@ -100,16 +100,16 @@
 }
 
 .accordion ul li:nth-child(1) {
-  background-image: url("/img/recipes/maloo/maloo.png");
+  background-image: url("../img/recipes/maloo/maloo.png");
 }
 .accordion ul li:nth-child(2) {
-  background-image: url("/img/recipes/maloo/maloo1.png");
+  background-image: url("../img/recipes/maloo/maloo1.png");
 }
 .accordion ul li:nth-child(3) {
-  background-image: url("/img/recipes/maloo/maloo2.png");
+  background-image: url("../img/recipes/maloo/maloo2.png");
 }
 .accordion ul li:nth-child(4) {
-  background-image: url("/img/recipes/maloo/maloo3.png");
+  background-image: url("../img/recipes/maloo/maloo3.png");
 }
 
 .accordion ul:hover li,
@@ -175,7 +175,7 @@ fieldset legend {
 
 #ingredients {
   height: 90vh;
-  background: url(/img/subtle_bg/greek-vase.png);
+  background: url("../img/subtle_bg/greek-vase.png");
 }
 
 #ingredients h2,
@@ -307,7 +307,7 @@ fieldset legend {
 --------------------------------------------------------------*/
 #able_to_make_it {
   height: 30vh;
-  background: url(/img/subtle_bg/gplaypattern_@2X.png);
+  background: url("../img/subtle_bg/gplaypattern_@2X.png");
 }
 
 #able_to_make_it .heading,

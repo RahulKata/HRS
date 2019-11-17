@@ -35,7 +35,7 @@ h1.titles {
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-  background-image: url(/img/recipes/maloo/maloo.png);
+  background-image: url("../img/recipes/maloo/maloo.png");
 }
 
 .card--x .card__img,
@@ -220,7 +220,7 @@ h1.titles {
 --------------------------------------------------------------*/
 #options {
   height: 100vh;
-  background: #eee url(/img/subtle_bg/herringbone.png);
+  background: #eee url("../img/subtle_bg/herringbone.png");
 }
 
 #pick {
@@ -357,7 +357,7 @@ h1.titles {
 --------------------------------------------------------------*/
 #veg {
   height: 170vh;
-  background: url(/img/subtle_bg/circles-and-roundabouts.png);
+  background: url("../img/subtle_bg/circles-and-roundabouts.png");
   box-sizing: border-box;
 }
 
@@ -407,7 +407,7 @@ h1.titles {
 --------------------------------------------------------------*/
 
 #non_veg {
-  background: url(/img/subtle_bg/white-waves.png);
+  background: url("../img/subtle_bg/white-waves.png");
   height: 170vh;
   box-sizing: border-box;
 }

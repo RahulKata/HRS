@@ -394,7 +394,7 @@ li,
 --------------------------------------------------------------*/
 #feedback {
   height: 120vh;
-  background: url("/img/subtle_bg/white-waves.png");
+  background: url("../img/subtle_bg/white-waves.png");
   text-align: centre;
   display: flex;
   flex-direction: row;
