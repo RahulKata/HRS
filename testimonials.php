@@ -65,41 +65,32 @@
             testimonials
 ============================-->
 <section id="test" class="wow slideInLeft">
-<div class="cd-testimonials-wrapper cd-container">
+<div class="cd-testimonials-wrapper cd-container" style="margin-top:30vh;">
 	<ul class="cd-testimonials">
-		<li>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<div class="cd-author">
-				<img src="./img/sample_face.gif" alt="reviewer image">
-				<ul class="cd-author-info">
-					<li>MyName</li>
-					<li>TaG, Description</li>
-				</ul>
-			</div>
-		</li>
+	  <?php
+		$con = mysqli_connect('localhost','root','','userregistration');  
+		$q = "select * from feedback";
+		$result = mysqli_query($con,$q);
 
-		<li>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
-			<div class="cd-author">
-				<img src="./img/sample_face.gif" alt="reviewer image">
-				<ul class="cd-author-info">
-					<li>MyName</li>
-					<li>Designer, Description</li>
-				</ul>
-			</div>
-		</li>
-
-		<li>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam nulla est, illo molestiae maxime officiis, quae ad, ipsum vitae deserunt molestias eius alias.</p>
-			<div class="cd-author">
-				<img src="./img/sample_face.gif" alt="reviewer image">
-				<ul class="cd-author-info">
-					<li>MyName</li>
-					<li>TaG, Description</li>
-				</ul>
-			</div>
-		</li>
+		$data = mysqli_num_rows($result);
 		
+		if($data!=0){
+			while($mydata = mysqli_fetch_assoc($result)){
+	  ?>
+		<li>
+			<p><?php echo $mydata['message']; ?></p>
+			<div class="cd-author">
+				<img src="./img/sample_face.gif" alt="reviewer image">
+				<ul class="cd-author-info">
+					<li><?php echo $mydata['name']; ?></li>
+					<li><?php echo $mydata['profession']; ?>, <?php echo $mydata['location']; ?></li>
+				</ul>
+			</div>
+		</li>
+		<?php 
+			}
+		}
+		?>		
 	</ul>
 	 <!-- cd-testimonials -->
 
@@ -306,7 +297,7 @@
 				</div>
 				<div class="contact-form__form--line">
 					<div class="input">
-						<label for="designation">What do u do for a living?*</label>
+						<label for="designation">Profession?*</label>
 						<input type="text" name="designation" />
 					</div>
 					<div class="input">
