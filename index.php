@@ -129,7 +129,7 @@
     
     <!--==========================
       Gallery Section
-      ============================-->
+    ============================-->
       <section id="gallery" class="section-with-bg wow zoomInUp" data-wow-duration="2s" data-wow-delay="1s">
 
       <div class="container">

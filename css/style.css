@@ -22,7 +22,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 4.155vh0;
 }
 
 h1,
@@ -33,13 +33,13 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 2.77vh 0;
   padding: 0;
   color: ;
 }
 
 .main-page {
-  margin-top: 70px;
+  margin-top: 9.69vh;
 }
 
 .wow {
@@ -53,18 +53,18 @@ h6 {
   display: none;
   background: #f82249;
   color: #fff;
-  width: 40px;
-  height: 40px;
+  width: 5.54vh;
+  height: 5.54vh;
   text-align: center;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
+  border-radius: 6.92vh;
+  right: 2.077vh;
+  bottom: 2.077vh;
   transition: background 0.5s ease-in-out;
 }
 
 .back-to-top i {
-  font-size: 24px;
-  padding-top: 6px;
+  font-size: 3.32vh;
+  padding-top: 0.83vh;
 }
 
 .back-to-top:focus {
@@ -82,9 +82,9 @@ h6 {
 --------------------------------*/
 
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 8.31vh;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 2.77vh;
 }
 
 .section-header::before {
@@ -99,18 +99,18 @@ h6 {
 }
 
 .section-header h2 {
-  font-size: 36px;
+  font-size: 5vh;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 2vh;
 }
 
 .section-header p {
   text-align: center;
   padding: 0;
   margin: 0;
-  font-size: 18px;
+  font-size: 2.5vh;
   font-weight: 500;
   color: #9195a2;
 }
@@ -124,8 +124,8 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 90px;
-  padding: 25px 0;
+  height: 12.46vh;
+  padding: 3.46vh 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -137,19 +137,19 @@ h6 {
 #header.header-scrolled,
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.842);
-  height: 70px;
-  padding: 15px 0;
+  height: 9.7vh;
+  padding: 2.077vh 0;
   transition: all 0.5s;
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 5vh;
   margin: 0;
-  padding: 6px 0;
+  padding: 0.84vh 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 0.42vh;
   text-transform: uppercase;
 }
 
@@ -207,19 +207,19 @@ h6 {
 }
 
 .nav-menu ul li {
-  min-width: 180px;
+  min-width: 25vh;
 }
 
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
-  padding-right: 30px;
+  padding-right: 4.155vh;
 }
 
 .sf-arrows .sf-with-ul:after {
   content: "\f107";
   position: absolute;
-  right: 15px;
+  right: 2.077vh;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -239,7 +239,7 @@ h6 {
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding: 8px;
+  padding: 1.11vh;
   text-decoration: none;
   display: inline-block;
   color: rgba(255, 255, 255, 0.637);
@@ -255,14 +255,14 @@ h6 {
 }
 
 .nav-menu > li {
-  margin-left: 8px;
+  margin-left: 1.11vh;
 }
 
 .nav-menu > li > a:before {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 0.277vh;
   bottom: 0;
   left: 0;
   background-color: #f82249;
@@ -280,15 +280,15 @@ h6 {
 .nav-menu li.connect a {
   color: rgb(255, 255, 255);
   background: #f82249;
-  padding: 7px 22px;
-  border-radius: 50px;
+  padding: 0.96vh 3.05vh;
+  border-radius: 6.92vh;
   border: 1.5px solid #ffffff;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
-  margin-left: 8px;
-  margin-top: 5px;
+  margin-left: 1.11vh;
+  margin-top: 0.7vh;
   line-height: 1;
-  font-size: 13px;
+  font-size: 1.8vh;
 }
 
 .nav-menu li.connect a:hover {
@@ -301,9 +301,9 @@ h6 {
 }
 
 .nav-menu ul {
-  margin: 4px 0 0 0;
-  padding: 10px;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  margin: 0.55vh 0 0 0;
+  padding: 1.38vh;
+  box-shadow: 0px 0px 4.155vh rgba(127, 137, 161, 0.25);
   background: #fff;
   border-radius: 3px;
 }
@@ -313,11 +313,11 @@ h6 {
 }
 
 .nav-menu ul li a {
-  padding: 10px;
+  padding: 1.38vh;
   color: #060c22;
   transition: 0.3s;
   display: block;
-  font-size: 13px;
+  font-size: 1.8vh;
   text-transform: none;
   border-radius: 3px;
 }
@@ -379,9 +379,9 @@ h6 {
 
 #mobile-nav ul li a {
   color: #db8f00;
-  font-size: 17px;
+  font-size: 2.35vh;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 1.38vh 3.05vh 1.38vh 2.077vh;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -401,7 +401,7 @@ h6 {
   position: absolute;
   right: 0;
   z-index: 99;
-  padding: 15px;
+  padding: 2.1vh;
   cursor: pointer;
   color: #fff;
 }
@@ -482,13 +482,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 0 2.1vh;
 }
 
 #intro h1 {
   color: #fff;
   font-family: "Aclonica", sans-serif;
-  font-size: 56px;
+  font-size: 8vh;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -500,7 +500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 3vh;
 }
 
 /*--------------------------------------------------------------
@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 100px 0 60px 0;
+  padding: 13.85vh 0 8.31vh 0;
 }
 
 #about:before {
@@ -527,22 +527,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h2 {
-  font-size: 36px;
+  font-size: 4.98vh;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1.38;
   color: #fff;
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 2.5vh;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 1.4vh;
   color: #fff;
 }
 
 #about p {
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 1.94vh;
+  margin-bottom: 2.77vh;
   color: #fff;
 }
 
@@ -551,7 +551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #devs {
-  padding: 60px 0 30px 0;
+  padding: 8.31vh 0 4.155vh 0;
   height: 95vh;
 }
 
@@ -567,7 +567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #devs .speaker {
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 10vh;
   height: 48vh;
 }
 
@@ -575,23 +575,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgb(6, 12, 34);
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: -4vh;
   right: 0;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 2px;
+  padding-top: 2vh;
+  padding-bottom: 0.4vh;
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 #devs .speaker .details h3 {
   color: #fff;
-  font-size: 22px;
+  font-size: 3vh;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 4vh;
 }
 
 #devs .speaker .details .social {
-  height: 30px;
+  height: 4vh;
 }
 
 #devs .speaker .details a {
@@ -607,18 +607,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #devs-details {
-  padding: 60px 0;
+  padding: 8.31vh 0;
 }
 
 #devs-details .details h2 {
   color: #112363;
-  font-size: 28px;
+  font-size: 3.87vh;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 1.4vh;
 }
 
 #devs-details .details .social {
-  margin-bottom: 50px;
+  margin-bottom: 7vh;
 }
 
 #devs-details .details .social a {
@@ -628,8 +628,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 5vh;
+  height: 5vh;
   padding-top: 9px;
 }
 
@@ -640,7 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #devs img {
   border-radius: 5%;
-  border: 2px groove rgb(0, 0, 0);
+  border: 4px ridge rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -648,27 +648,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #gallery {
-  padding: 60px;
+  padding: 8.31vh;
   overflow: hidden;
   height: 90vh;
 }
 
 #gallery .owl-nav,
 #gallery .owl-dots {
-  margin-top: 25px;
+  margin-top: 3.46vh;
   text-align: center;
 }
 
 #gallery .owl-item {
-  border-left: 10px solid #fff;
-  border-right: 10px solid #fff;
+  border-left: 1.38vh solid #fff;
+  border-right: 1.38vh solid #fff;
 }
 
 #gallery .owl-dot {
   display: inline-block;
-  margin: 4vh 8px;
-  width: 12px;
-  height: 10px;
+  margin: 4vh 1.11vh;
+  width: 1.66vh;
+  height: 1.38vh;
   border-radius: 50%;
   background-color: rgb(0, 0, 0);
 }
@@ -682,8 +682,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 8px ridge #f82249;
-  margin: -15px;
+  border: 1.11vh ridge #f82249;
+  margin: -2.1vh;
   box-sizing: content-box;
   padding: 5px;
   background: rgb(0, 0, 0);
@@ -698,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #subscribe {
-  padding: 60px;
+  padding: 8.31vh;
   background: url("../img/subscribe-bg.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -727,21 +727,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   outline: none;
   margin: 0;
-  padding: 9px 20px;
-  border-radius: 50px;
-  font-size: 14px;
+  padding: 1.246vh 2.77vh;
+  border-radius: 3vh;
+  font-size: 2vh;
+  margin-right: 2vw;
 }
 
 #subscribe button {
   border: 0;
-  padding: 9px 25px;
+  padding: 1.246vh 3.46vh;
   cursor: pointer;
   background: #f82249;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
-  font-size: 14px;
-  border-radius: 50px;
+  font-size: 2vh;
+  border-radius: 3vh;
+  margin-left: 1vw;
 }
 
 #subscribe button:hover {
@@ -777,14 +779,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer {
   background: #070b14;
-  padding: 0 0 25px 0;
+  padding: 0 0 3.46vh 0;
   color: #eee;
-  font-size: 14px;
+  font-size: 2vh;
 }
 
 #footer .footer-top {
   background: linear-gradient(319deg, #231557, #000000, #7a0029);
-  padding: 60px 0 30px 0;
+  padding: 8.3vh 0 4.15vh 0;
   /* animation: grad 7s ease infinite; */
 }
 
@@ -800,13 +802,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 } */
 
-#footer .footer-top .footer-info {
-  margin-bottom: 20px;
-}
-
 hr.style {
   border: 0;
-  height: 3px;
+  height: 0.42vh;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #e0072f, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, #e0072f, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #e0072f, #f0f0f0);
@@ -814,32 +812,32 @@ hr.style {
 }
 
 #footer .footer-top .footer-info img {
-  width: 106px;
-  height: 96px;
-  margin-bottom: 20px;
+  width: 7vw;
+  height: 10vh;
+  margin-bottom: 3vh;
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 2vh;
+  line-height: 2vh;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 2.5vh;
   display: inline-block;
   background: #070b14;
   color: #eee;
   border: 1px solid white;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 1.1vh 0;
+  margin-right: 0.55vh;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 5vh;
+  height: 5vh;
   transition: 0.3s;
 }
 
@@ -849,12 +847,12 @@ hr.style {
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 2vh;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 2.77vh;
   border-bottom: 2px solid #f82249;
 }
 
@@ -868,7 +866,7 @@ hr.style {
 .el {
   position: absolute;
   opacity: 1;
-  width: 2px;
+  width: 0.277vh;
   height: 13vh;
   margin-top: -8vh;
   margin-left: 17vw;

@@ -410,6 +410,7 @@ li,
   justify-content: center;
   align-items: center;
   width: 70vw;
+  background: #aa0505;
   box-shadow: 0 0 25px #000000a1;
 }
 
@@ -418,10 +419,10 @@ li,
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background: #6ebaff;
+  background: #fbca03;
   width: 30vw;
   height: 95vh;
-  color: black;
+  color: #aa0505;
 }
 .contact-form__brand i {
   font-size: 20vh;
@@ -431,7 +432,7 @@ li,
 
 .contact-form__contact {
   background: black;
-  color: #6ebaff;
+  color: #fbca03;
   padding: 1vh 5vw;
   position: relative;
 }
@@ -453,7 +454,7 @@ li,
   width: 0;
   top: 0;
   left: -10vw;
-  border-top: 81vh solid #6ebaff;
+  border-top: 81vh solid #fbca03;
   border-right: 15vh solid transparent;
 }
 
@@ -464,7 +465,7 @@ h3.contact-form__title {
   font-size: 8vh;
   padding-bottom: 0vh;
   margin: 0;
-  border-bottom: 0.3vh solid #6ebaff;
+  border-bottom: 0.3vh solid #aa0505;
 }
 
 form.contact-form__form {
@@ -495,8 +496,9 @@ form.contact-form__form textarea {
   border-radius: 0;
   border: none;
   padding: 8px;
-  background: white;
+  background: #b97d10;
   font-weight: 100;
+  color: white;
 }
 
 .input {
@@ -516,6 +518,7 @@ form.contact-form__form textarea {
 .input--textarea textarea {
   width: 32vw;
   padding: 1vh;
+  background: #b97d10;
   resize: none;
   font-family: "Athiti", sans-serif;
   font-size: 2vh;
@@ -532,9 +535,9 @@ form.contact-form__form textarea {
 
 button {
   border-radius: 4px;
-  background-color: #6ebaff;
+  background-color: #aa0505;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 3vh;
   padding: 1vh;
@@ -555,8 +558,8 @@ button {
 }
 
 button:hover {
-  border: 0.5vh ridge rgb(0, 0, 0);
-  transform: scale(1.2);
+  border: 0.5vh ridge #b97d10;
+  transform: scale(1.15);
 }
 
 .input--button .submit-btn:hover {
@@ -594,11 +597,11 @@ button:hover {
 
 /* On mouse-over, add a grey background color */
 .checkbox-container:hover input ~ .checkmark {
-  background-color: rgb(146, 146, 146);
+  background-color: rgb(184, 184, 184);
 }
 
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #6ebaff;
+  background-color: #aa0505;
 }
 
 .checkmark:after {
@@ -616,7 +619,7 @@ button:hover {
   top: 1.1vh;
   width: 1vh;
   height: 0.4vw;
-  border: solid rgb(0, 0, 0);
+  border: solid #fbca03;
   border-width: 0 1.5vh 1.5vh 0;
   transform: rotate(45deg);
 }
