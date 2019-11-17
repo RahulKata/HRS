@@ -257,11 +257,10 @@
           <h2>Newsletter</h2>
           <p>To get more appetizing and fresh recipes do subscribe.</p>
         </div>
-
-        <form method="POST" action="#">
+        <form method="POST" action="mail.php">
           <div class="form-row justify-content-center">
             <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
+              <input type="text" class="form-control" name='email' placeholder="Enter your Email">
             </div>
             <div class="col-auto">
               <button type="submit">Subscribe</button>
