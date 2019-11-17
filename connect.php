@@ -34,7 +34,7 @@
       <div class="container">
         <div id="logo" class="pull-left">
           <h1 style="font-family: 'Rock Salt', cursive;">
-            <a href="./index.html">HS<span>R</span></a>
+            <a href="./index.php">HS<span>R</span></a>
           </h1>
         </div>
 
