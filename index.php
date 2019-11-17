@@ -56,7 +56,7 @@
           <li class="menu-active"><a href="#">Home</a></li>
           <li><a href="./indian.html">Indian</a></li>
           <li><a href="./foreign.html">Foriegn</a></li>
-          <li><a href="./testimonials.html">Testimonials</a></li>
+          <li><a href="./testimonials.php">Testimonials</a></li>
           <li class="connect"><a href="./connect.php">&nbsp;<?php echo $_SESSION['username']; ?></a></li>
           <li><a href="logout.php">Logout</a></li>
         </ul>

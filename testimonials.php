@@ -293,14 +293,14 @@
 		</div>
 		<div class="contact-form__contact">
 			<h3 class="contact-form__title">FeedBack!</h3>
-			<form class="contact-form__form">
+			<form class="contact-form__form" action="feedback.php" method="POST">
 				<div class="contact-form__form--line" id="form1">
 					<div class="input">
 						<label for="name">Name*</label>
 						<input type="text" name="name" required/>
 					</div>
 					<label class="checkbox-container">I'm satisfied!
-						<input type="checkbox" checked />
+						<input type="checkbox" checked name="check"/>
 						<span class="checkmark"></span>
 					</label>
 				</div>
@@ -310,26 +310,26 @@
 						<input type="text" name="designation" />
 					</div>
 					<div class="input">
-						<label for="Last Name">Describe yourself in one word</label>
-						<input type="text" name="Last Name" />
+						<label for="location">Where do you stay?*</label>
+						<input type="text" name="location" required/>
 					</div>
 				</div>
 				<div class="contact-form__form--line">
 					<div class="input">
-						<label for="Mail">Mail*</label>
-						<input type="email" name="Mail" />
+						<label for="mail">E-Mail</label>
+						<input type="email" name="mail" />
 					</div>
 					<div class="input">
-						<label for="Phone">Phone Number*</label>
-						<input type="number" name="Phone" />
+						<label for="phone">Phone Number</label>
+						<input type="number" name="phone" />
 					</div>
 				</div>
 				<div class="input--textarea">
-					<label for="Message">Message*</label>
-					<textarea type="text" name="Message"></textarea>
+					<label for="message">Message*</label>
+					<textarea type="text" name="message"></textarea>
 				</div>
 				<div class="input--button">
-					<button form="form1"><span>Submit &nbsp;</span></button>
+					<button type="submit" name="feedback"><span>Submit &nbsp;</span></button>
 				</div>
 			</form>
 		</div>
