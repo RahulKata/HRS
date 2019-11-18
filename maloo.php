@@ -47,8 +47,8 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li><a href="./index.php">Home</a></li>
-            <li><a href="./indian.html">Indian</a></li>
-            <li><a href="./indian.html#veg"><i class=" fa fa-arrow-right"></i> Veg</a></li>
+            <li><a href="./indian.php">Indian</a></li>
+            <li><a href="./indian.php#veg"><i class=" fa fa-arrow-right"></i> Veg</a></li>
             <li class="menu-active"><a href="#"><i class=" fa fa-arrow-right"></i> Methi Aloo</a></li>
           </ul>
         </nav>

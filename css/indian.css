@@ -328,9 +328,9 @@ h1.titles {
 #options #menu li:before {
   content: "";
   position: absolute;
-  width: 50px;
+  width: 6.7vh;
   height: 100%;
-  background: #bbb;
+  background: rgb(173, 82, 82);
   -webkit-transform: skewY(8deg);
   z-index: -3;
   border-radius: 4px;

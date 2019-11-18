@@ -24,6 +24,7 @@
     <!-- Main Stylesheet File -->
     <link rel="stylesheet" href="./css/connect.css" />
     <link rel="stylesheet" href="./css/stars.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
   </head>
 
   <body>
@@ -41,8 +42,8 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li><a href="./index.php">Home</a></li>
-            <li><a href="./indian.html">Indian</a></li>
-            <li><a href="./foreign.html">Foriegn</a></li>
+            <li><a href="./indian.php">Indian</a></li>
+            <li><a href="./foreign.php">Foriegn</a></li>
             <li><a href="./testimonials.php">Testimonials</a></li>
             <li class="connect"><a href="#">Connect with Us</a></li>
           </ul>

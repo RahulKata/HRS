@@ -522,6 +522,7 @@ form.contact-form__form textarea {
   resize: none;
   font-family: "Athiti", sans-serif;
   font-size: 2vh;
+  color: white;
 }
 
 .input--button {

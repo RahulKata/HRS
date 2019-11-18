@@ -1,3 +1,11 @@
+<?php 
+  session_start();
+
+  if(!isset($_SESSION['username']))
+  {
+    header('location:connect.php');
+  }
+?>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -51,7 +59,7 @@
 				<li><a href="./indian.html">Indian</a></li>
 				<li><a href="./foreign.html">Foriegn</a></li>
 				<li  class="menu-active"><a href="#">Testimonials</a></li>
-				<li class="connect"><a href="./connect.php">Connect with Us</a></li>
+				<li class="connect"><a href="./connect.php">&nbsp;<?php echo $_SESSION['username']; ?></a></li>
 			</ul>
 		</nav>
 		<!-- #nav-menu-container -->
