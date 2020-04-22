@@ -9,8 +9,10 @@ A small website created primarily using...
 - Js
 
 Created by:
-> Srujan S
+
+> Rahul Kata
 
 > Harsha K
 
-> Rahul Kata
+
+> Srujan KN
