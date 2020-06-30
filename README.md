@@ -9,7 +9,7 @@ A small website created primarily using...
 - CSS
 - Js
 
-<img src="hsr.gif" alt="HSR" height="400" width="700">
+<img src="hsr.gif" alt="HSR" height="400" width="800">
 <hr>
 
 Created by:
